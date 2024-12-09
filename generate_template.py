@@ -9,7 +9,7 @@ def part_2(puzzle_input: str) -> str:
 
 def main():
 	with(open('{title}.txt', 'r') as input_file):
-		puzzle_input = input_file.read()
+		puzzle_input = input_file.read()[:-1]
 		
 	print(part_1(puzzle_input))
 	print(part_2(puzzle_input))
