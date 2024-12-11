@@ -1,10 +1,10 @@
 import sys
 
 def generate_template(title: str) -> None:
-	template = f'''def part_1(puzzle_input: str) -> str:
+	template = f'''def part_1(puzzle_input: str) -> int:
 	pass
 
-def part_2(puzzle_input: str) -> str:
+def part_2(puzzle_input: str) -> int:
 	pass
 
 def main():
